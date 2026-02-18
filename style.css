@@ -301,5 +301,32 @@ input:focus{border-color: rgba(138,180,255,.45)}
   transform: scale(1.02);
   transition: 0.4s ease;
 }
+/* HERO institutionnel: image en fond + overlay */
+.hero--bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero--bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(7,10,16,0.92) 0%, rgba(7,10,16,0.78) 55%, rgba(7,10,16,0.60) 100%),
+    url("assets/pexels-evie-shaffer-1259279-4004375.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: contrast(1.1) brightness(0.75);
+  transform: scale(1.03);
+}
+
+.hero--bg .container,
+.hero--bg .hero__grid,
+.hero--bg .hero__content,
+.hero--bg .hero__panel {
+  position: relative;
+  z-index: 1;
+}
 
 
