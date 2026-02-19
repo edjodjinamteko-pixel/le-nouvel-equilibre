@@ -396,12 +396,12 @@ input:focus{border-color: rgba(138,180,255,.45)}
 }
 
 .article-chart img {
-  width: 70%;
+  width: 50%;
   max-width: 750px;
   height: auto;
 }
 .article-chart img {
-  width: 60%;
+  width: 40%;
   max-width: 650px;
 }
 
