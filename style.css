@@ -379,9 +379,16 @@ input:focus{border-color: rgba(138,180,255,.45)}
   font-size: 14px;
   opacity: 0.6;
 }
-.article-chart {
-  max-width: 900px;
-  margin: 60px auto;
+.article-chart img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.article .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 
