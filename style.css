@@ -423,7 +423,7 @@ input:focus{border-color: rgba(138,180,255,.45)}
   display: block !important;
   margin: 30px auto !important;
 }
-
+body{ outline: 6px solid red !important; }
 
 
 
