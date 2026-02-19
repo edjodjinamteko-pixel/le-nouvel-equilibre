@@ -390,6 +390,20 @@ input:focus{border-color: rgba(138,180,255,.45)}
   margin: 0 auto;
   padding: 0 20px;
 }
+.article-chart {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.article-chart img {
+  width: 70%;
+  max-width: 750px;
+  height: auto;
+}
+.article-chart img {
+  width: 60%;
+  max-width: 650px;
+}
 
 
 
