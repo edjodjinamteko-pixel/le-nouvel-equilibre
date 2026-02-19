@@ -379,12 +379,11 @@ input:focus{border-color: rgba(138,180,255,.45)}
   font-size: 14px;
   opacity: 0.6;
 }
-.article-chart img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+.article-chart {
+  max-width: 900px;
+  margin: 60px auto;
 }
+
 
 
 
