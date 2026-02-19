@@ -334,11 +334,22 @@ input:focus{border-color: rgba(138,180,255,.45)}
   font-size: clamp(28px, 3vw, 42px);
   white-space: nowrap;
 }
-.hero h1 {
-  white-space: nowrap;
-  font-size: 32px;
-}
+
 .hero {
   max-width: 1600px;
 }
+.hero__grid{
+  grid-template-columns: 1fr !important;
+}
+.hero__panel{
+  display: none;
+}
+
+.hero__grid{
+  grid-template-columns: 1fr !important;
+}
+.hero__panel{
+  display: none;
+}
+
 
