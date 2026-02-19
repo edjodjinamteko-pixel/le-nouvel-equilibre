@@ -33,6 +33,9 @@ strong{color:#ffffff}
   width:min(1100px, 92vw);
   margin:0 auto;
 }
+.hero {
+  max-width: 1600px;
+}
 
 .muted{color:var(--muted)}
 .srOnly{position:absolute; left:-9999px}
@@ -334,5 +337,8 @@ input:focus{border-color: rgba(138,180,255,.45)}
 .hero h1 {
   white-space: nowrap;
   font-size: 32px;
+}
+.hero {
+  max-width: 1600px;
 }
 
