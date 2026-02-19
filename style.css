@@ -354,6 +354,31 @@ input:focus{border-color: rgba(138,180,255,.45)}
     align-items: flex-start;
     gap: 6px;
   }
+/* ===== ARTICLE CHART PREMIUM ===== */
+
+.article-chart {
+  margin: 60px 0;
+  text-align: center;
+}
+
+.chart-dark {
+  background: linear-gradient(145deg, #0f172a, #111827);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+}
+
+.chart-dark img {
+  max-width: 100%;
+  border-radius: 12px;
+  opacity: 0.95;
+}
+
+.chart-caption {
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.6;
+}
 
 
 
