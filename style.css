@@ -404,6 +404,13 @@ input:focus{border-color: rgba(138,180,255,.45)}
   width: 40%;
   max-width: 650px;
 }
+.article-chart img {
+  width: 50%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 40px auto;
+}
 
 
 
