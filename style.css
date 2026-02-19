@@ -417,7 +417,7 @@ input:focus{border-color: rgba(138,180,255,.45)}
 }
 /* FIX taille graphique article (force) */
 .article .article-chart img{
-  width: 520px !important;
+  width: 450px !important;
   max-width: 90% !important;
   height: auto !important;
   display: block !important;
