@@ -334,6 +334,13 @@ input:focus{border-color: rgba(138,180,255,.45)}
   gap: 40px;
   align-items: center;
 }
+.hero__meta{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  font-size: 14px;
+  opacity: 0.8;
+}
 
 
 
