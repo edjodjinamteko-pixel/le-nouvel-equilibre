@@ -438,7 +438,17 @@ body{ outline: 6px solid red !important; }
   display: block !important;
   margin: 40px auto !important;
 }
+.article h2{
+  margin-top: 50px;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+}
 
+.article p{
+  line-height: 1.8;
+  font-size: 17px;
+  color: #cfd6e6;
+}
 
 
 
