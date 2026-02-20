@@ -479,4 +479,6 @@ body{ outline: 6px solid red !important; }
     text-align: center;
   }
 }
-
+.article-media img{
+  max-width: 350px;
+}
