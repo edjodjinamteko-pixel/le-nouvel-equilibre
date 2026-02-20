@@ -482,3 +482,31 @@ body{ outline: 6px solid red !important; }
 .article-media img{
   max-width: 350px;
 }
+.article-hero{
+  display:flex;
+  align-items:flex-start;
+  gap:40px;
+  margin-bottom:60px;
+}
+
+.article-text{ flex:1; }
+
+.article-media{
+  flex:1;
+  text-align:right;
+}
+
+.article-media img{
+  width:100%;
+  max-width:380px;
+  height:auto;
+  border-radius:12px;
+  display:block;
+  margin-left:auto;
+}
+
+@media (max-width: 900px){
+  .article-hero{ flex-direction:column; }
+  .article-media{ text-align:center; }
+  .article-media img{ margin:0 auto; }
+}
