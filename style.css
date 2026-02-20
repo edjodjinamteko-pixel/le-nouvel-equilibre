@@ -449,6 +449,26 @@ body{ outline: 6px solid red !important; }
   font-size: 17px;
   color: #cfd6e6;
 }
+.article-hero{
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 60px;
+}
 
+.article-text{
+  flex: 1;
+}
+
+.article-media{
+  flex: 1;
+  text-align: right;
+}
+
+.article-media img{
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+}
 
 
