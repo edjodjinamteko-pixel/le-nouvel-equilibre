@@ -470,5 +470,13 @@ body{ outline: 6px solid red !important; }
   max-width: 400px;
   border-radius: 12px;
 }
+@media (max-width: 900px){
+  .article-hero{
+    flex-direction: column;
+  }
 
+  .article-media{
+    text-align: center;
+  }
+}
 
